@@ -11,14 +11,17 @@ class Accordion extends Component{
         }
       }
 
+      
+
    render(){
     const  { bankname, banklogo } = this.props;
+ 
 
     return (
             <div>
                 <details className="Accordion-container">
                     <summary>
-                        <div className="Accordion-logo"><img src={process.env.PUBLIC_URL + `${banklogo}`} alt={bankname}/></div>
+                        <div className="Accordion-logo"><img src={banklogo} alt={bankname}/></div>
                         <div className="Accordion-label">{bankname}</div>
                     </summary>
                     <div className="Accordion-content">

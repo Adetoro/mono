@@ -1,10 +1,10 @@
-import GTBankLogo from './Logos/GTB.png';
+import GTBankLogo from './logos/GTB.png';
 
 export const BanksList = [
     {
         id: 1,
         name: 'GTBank',
-        logo: './Logos/GTB.png'
+        logo: {GTBankLogo}
 
     },
     {

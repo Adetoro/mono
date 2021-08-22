@@ -22,7 +22,7 @@ class Widget extends Component {
   
   componentDidMount(){  
     
-    //FETCH DATA FROM API
+    //FETCH BANKLIST AND LOGOS FROM API
     fetch('/banks')
     .then(response => response.json())
     .then(data => {
