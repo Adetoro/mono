@@ -1,0 +1,76 @@
+.Widget-container{
+    filter: drop-shadow(-4px -4px 20px rgba(0, 0, 0, 0.2)) drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.2));
+    margin: 0rem 0rem 3rem 6rem;
+    width: 47rem;
+}
+
+.Card-bg{
+    border-radius: 3.5rem;
+    width: 100%;
+    height: 71.8rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.15), 3px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 3.5rem;
+    -moz-border-radius: 3.5rem;
+    -ms-border-radius: 3.5rem;
+    -o-border-radius: 3.5rem;
+}
+
+.Widget-title{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    padding: 2.7rem 0rem;
+   
+}
+
+.Powered{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin:3rem auto;
+    padding: 0.5rem 1rem;
+    background: rgba(14, 19, 55, 0.15);
+    border-radius: 5px;
+    width: 15rem;
+    
+}
+
+.Powered p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.Powered-logo{
+    width: 6.7rem;
+    background: url('../Header/Assets/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: .3rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .Widget-container{
+        margin: 0rem 0rem 3rem 0rem;
+    }   
+
+} 
+
+
+ @media screen and (max-width: 600px) {
+
+    .Widget-container{
+        margin: 2.5rem 0rem;
+    }
+    
+} 

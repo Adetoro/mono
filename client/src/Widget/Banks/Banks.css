@@ -1,0 +1,38 @@
+.Banks-container{
+    width: 97%;
+    height: 61.5rem;
+    margin-top:1rem;
+    padding-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+ 
+    overflow-y: scroll;
+
+}
+
+/* SRCOLL BAR */
+/* width */
+.Banks-container::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  
+/* Track */
+.Banks-container::-webkit-scrollbar-track {
+    opacity: 0.9;
+    box-shadow: 0px 10px 15px rgba(49, 49, 49, 0.15);
+}
+
+/* Handle */
+.Banks-container::-webkit-scrollbar-thumb {
+    background: #FAFCFF;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}

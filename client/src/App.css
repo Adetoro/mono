@@ -1,0 +1,49 @@
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 11rem 0rem 6rem 0rem;
+
+}
+
+.Hero-text{
+  font-family: 'Duplicate Sans', sans-serif;
+  font-weight:500;
+  font-size: 6.4rem;
+  width: 45%;
+  margin-top:12rem
+}
+
+@media screen and (max-width: 768px) {
+  .App{
+    margin: 7rem 0rem 6rem 0rem;
+  }
+
+  .Hero-text{
+    font-size: 5rem;
+    width: 100%;
+    margin-top:1rem
+  }
+
+  .Widget-container{
+    width: 75%;
+   margin: 0 auto;
+   padding-top:2rem ;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App{
+    margin: 7rem 0rem 6rem 0rem;
+  }
+
+  .Hero-text{
+    font-size: 5rem;
+    width: 100%;
+    margin-top:1rem
+  }
+
+  .Widget-container{
+    width: 100%;
+  }
+}

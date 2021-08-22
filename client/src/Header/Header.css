@@ -1,0 +1,26 @@
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color:#fff;
+    font-size: 1.5rem;
+  }
+  
+  .Header-logo{
+    width: 100px;
+  }
+
+  .Header-logo:hover{
+    cursor: pointer;
+  }
+
+  .Statement-page-link:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+  }
+  .Header-newtab{
+      width: 1rem;
+      margin-left: 1rem;
+  }
