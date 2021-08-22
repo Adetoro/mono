@@ -8,9 +8,9 @@ function AccordionButton(){
                 <span className="tooltipbody">
                     <div className="tooltiptitle">Statements</div>
                     <div className="tooltiptext">
-                        <p>Send your statements to your favourite apps with Mono. Your information is encrypted using bank grade security. 
-                        <br/> <br/>
-                        Mono will never make your login credentials available to Partners.</p>
+                        <p>Send your statements to your favourite apps with Mono. Your information is encrypted using bank grade security.</p> 
+                        
+                        <p>Mono will never make your login credentials available to Partners.</p>
                     </div>
                 </span>
             </button>
