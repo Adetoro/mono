@@ -12,7 +12,6 @@ class Widget extends Component {
     this.state = {
       banklist: [],
       searchfield: '',
-      
     }
   }
 
@@ -22,6 +21,8 @@ class Widget extends Component {
   }
   
   componentDidMount(){  
+    
+    //FETCH DATA FROM API
     fetch('/banks')
     .then(response => response.json())
     .then(data => {
